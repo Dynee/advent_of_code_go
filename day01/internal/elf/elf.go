@@ -64,7 +64,6 @@ func ProcessElves(fp string) ([]Elf, error) {
 	if err != nil {
 		return nil, err
 	}
-	// Pattern 1: Processing a file's data.
 	data, err := os.ReadFile(fpath)
 	if err != nil {
 		return nil, err
